@@ -1,0 +1,240 @@
+
+/* Mobile Responsive Design */
+@media (max-width: 1124px) {
+    nav {
+        padding: 20px 40px;
+    }
+
+    body::before {
+        display: none;
+    }
+
+    body::after {
+        width: 900px;
+        height: 900px;
+    }
+
+    .design-container::before {
+        width: 640px;
+        height: 640px;
+    }
+
+    .design-container::after {
+        width: 398px;
+        height: 398px;
+    }
+
+    .nav-items li a {
+        font-size: 16px;
+    }
+
+    nav .logo h1 {
+        font-size: 35px;
+    }
+
+    nav button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 930px) {
+    nav {
+        padding: 20px;
+    }
+
+    .nav-items ul li a {
+        font-size: 14px;
+    }
+
+    nav .logo h1 {
+        font-size: 29px;
+    }
+
+    nav button {
+        font-size: 10px;
+    }
+
+    body::before {
+        display: none;
+    }
+
+    body::after {
+        width: 750px;
+        height: 750px;
+    }
+
+    .design-container::before {
+        width: 540px;
+        height: 540px;
+    }
+
+    .design-container::after {
+        width: 360px;
+        height: 360px;
+    }
+
+    .main-container .main-heading h1:first-child {
+        font-size: 90px;
+    }
+
+    .main-container .main-heading h1:last-child {
+        font-size: 60px;
+    }
+
+    .main-container .main-heading p {
+        font-size: 70px;
+        top: 70px;
+    }
+
+}
+
+@media (max-width: 785px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-items {
+        margin-bottom: 10px;
+    }
+
+    nav .logo h1 {
+        font-size: 40px;
+    }
+
+    body::after {
+        width: 640px;
+        height: 640px;
+        top: 65%;
+    }
+
+    .design-container::before {
+        width: 440px;
+        height: 440px;
+        top: 65%;
+    }
+
+    .design-container::after {
+        top: 65%;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 690px) {
+    .main-container .main-heading h1:first-child {
+        font-size: 70px;
+        letter-spacing: 0.001px;
+    }
+
+    .main-container .main-heading h1:last-child {
+        font-size: 50px;
+    }
+
+    .main-container .main-heading p {
+        font-size: 60px;
+        top: 70px;
+        left: 25px;
+    }
+
+    body::after {
+        width: 500px;
+        height: 500px;
+        top: 64%;
+    }
+
+    .design-container::before {
+        width: 340px;
+        height: 340px;
+        top: 65%;
+        display: block;
+    }
+
+    .design-container::after {
+        top: 65%;
+        width: 240px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 525px) {
+    nav .logo h1 {
+        font-size: 32px;
+    }
+
+    nav .nav-items ul li a {
+        font-size: 12px;
+    }
+
+    nav button {
+        font-size: 10px;
+    }
+
+    .main-container .main-heading h1:first-child {
+        font-size: 60px;
+        letter-spacing: 0.001px;
+    }
+
+    .main-container .main-heading h1:last-child {
+        font-size: 40px;
+    }
+
+    .main-container .main-heading p {
+        font-size: 50px;
+        top: 70px;
+        left: 25px;
+    }
+
+    body::after {
+        display: none;
+    }
+
+    .design-container::before {
+        width: 420px;
+        height: 420px;
+        top: 65%;
+    }
+
+    .design-container::after {
+        top: 65%;
+        width: 240px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 440px) {
+    .design-container::before {
+        width: 300px;
+        height: 300px;
+        top: 65%;
+    }
+
+    .design-container::after {
+        top: 65%;
+        width: 180px;
+        height: 180px;
+    }
+
+    .nav-items ul {
+        gap: 5px !important;
+    }
+
+    nav .nav-items ul li a {
+        font-size: 12px;
+    }
+
+    .main-container .main-heading h1:first-child {
+        font-size: 45px;
+        letter-spacing: 0.001px;
+    }
+
+    .main-container .main-heading h1:last-child {
+        font-size: 30px;
+    }
+
+    .main-container .main-heading p {
+        font-size: 50px;
+        top: 50px;
+        left: 25px;
+    }
+}
