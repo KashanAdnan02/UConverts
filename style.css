@@ -554,7 +554,7 @@ footer {
     margin: 12px 0;
     color: #333;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .footer-column a:hover {
@@ -603,8 +603,8 @@ footer {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .newsletter button:hover {
