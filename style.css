@@ -539,21 +539,22 @@ footer {
 
 .footer-column {
     flex: 1;
+    margin-right: 15px;
 }
 
 .footer-column h3 {
     font-size: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     color: #000;
     font-weight: 600;
 }
 
 .footer-column p,
 .footer-column a {
-    margin: 8px 0;
+    margin: 12px 0;
     color: #333;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .footer-column a:hover {
@@ -615,6 +616,103 @@ footer {
     margin-top: 40px;
     font-size: 16px;
     color: #666;
+}
+
+
+.checker-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 50px auto 0 auto;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1A77DD;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.unit-rows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.unit-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.unit-row label {
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.unit-row input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.feedback {
+    font-size: 0.9em;
+    margin-top: 5px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.invalid {
+    color: #d32f2f;
+}
+
+.conversions {
+    margin-top: 20px;
+}
+
+.conversions h3 {
+    font-weight: 500;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.conversions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.conversions li {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.category-info {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.category-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 600
 }
 
 /* Large screens (desktops, >1200px) */
